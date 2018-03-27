@@ -1,0 +1,56 @@
+.main{
+width:100%;
+background-color:pink;
+display:flex;
+flex-direction:row;
+/* flex box syntax */
+}
+.left{
+  width:25%;
+  background-color:#999;
+  border:6px solid #fff;
+  margin:5px;
+  padding:7px;
+  /* background-image:url();  */
+}
+.right{
+  width:70%;
+  background-color:sky blue;
+  border:6px solid #fff;
+  margin:5px;
+  padding:7px;
+
+}
+#name{
+  color:green;
+}
+.left img{
+  border-radius:50px;
+  border:5px solid #999;
+}
+@media  only screen and  (max-width:1024px) and (min- width:1034px)
+{
+.main{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+
+}
+  .left{
+    width:25%;
+    background-color:#985;
+  }
+  .right{
+    width:70%;
+    background-color:sky blue;
+  }
+}
+@media only screen and(min-width:480px) and (max-width:768px){
+
+}
+@media only screen and(min-width:480px) and (max-width:768px){}
+
+}
+@media only screen and(max-width:480px){
+
+}
