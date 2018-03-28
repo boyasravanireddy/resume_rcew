@@ -1,23 +1,23 @@
 .main{
-width:100%;
+width:75%;
 background-color:pink;
 display:flex;
 flex-direction:row;
 /* flex box syntax */
 }
 .left{
-  width:25%;
-  background-color:#999;
-  border:6px solid #fff;
-  margin:5px;
+  width:35%;
+  background-color:blue;
+  border:4px solid #fff;
+  margin:4px;
   padding:7px;
   /* background-image:url();  */
 }
 .right{
   width:70%;
-  background-color:sky blue;
-  border:6px solid #fff;
-  margin:5px;
+  background-color:#999;
+  border:4px solid #fff;
+  margin:4px;
   padding:7px;
 
 }
@@ -26,9 +26,9 @@ flex-direction:row;
 }
 .left img{
   border-radius:50px;
-  border:5px solid #999;
+  border:4px solid #999;
 }
-@media  only screen and  (max-width:1024px) and (min- width:1034px)
+@media  only screen and  (max-width:1024px) and (min-width:1034px)
 {
 .main{
   display:flex;
@@ -42,15 +42,15 @@ flex-direction:row;
   }
   .right{
     width:70%;
-    background-color:sky blue;
+    background-color:#fff;
   }
 }
-@media only screen and(min-width:480px) and (max-width:768px){
+@media only screen and (min-width:480px) and (max-width:768px){
 
 }
-@media only screen and(min-width:480px) and (max-width:768px){}
+@media only screen and (min-width:480px) and (max-width:768px){
 
 }
-@media only screen and(max-width:480px){
+@media only screen and (max-width:480px){
 
 }
