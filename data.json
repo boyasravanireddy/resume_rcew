@@ -5,5 +5,45 @@
     "name":"B.Sravani",
     "email":"sravanishilpa717@gmail.com",
     "phone":"33333333333"
+  },
+  "education":[
+    {
+      "course":"B.tech(Computer Science and Engineering)",
+      "college":[
+        "Ravindra College Of Engineering",
+        "2015-2019",
+        "60%"
+      ]
+    },
+    {
+      "course":"Intermediate",
+      "college":[
+        "Narayana College",
+        "2013-2015",
+        "60%"
+     ]
+   },
+    {
+        "course":"SCC",
+        "college":[
+          "Akshara Sree School",
+          "2013",
+          "60%"
+    ]
   }
+],
+"skills":[
+  {
+    "name":"Operating systems",
+    "value":"Windows,Linux"
+  },
+  {
+    "name":"Programming Language",
+    "Value":"c,c++,java"
+  },
+  {
+    "name":"Web devlopment",
+    "value":"HTML,Python"
+  }
+]
 }
